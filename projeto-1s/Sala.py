@@ -10,8 +10,7 @@ class Sala:
         self.reservas.append(reserva)
 
     def remover_reserva(self, reserva):
-        self.reservas.
-        (reserva)
+        self.reservas.remove(reserva)
 
     def esta_disponivel(self, data):
         for reserva in self.reservas:
